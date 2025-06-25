@@ -7,9 +7,9 @@ class Info extends Component {
 
         return (
             <div className='Info'>
-                <h1>Satellite tracker</h1>
-                {stations && stations.length > 0 && (<p>Total objects: {stations.length}</p>)}
-                {refMode == 1 ? <p>ECF mode</p> : <p>ECI mode</p>}
+                <h1>SatTrack</h1>
+                {stations && stations.length > 0 && (<p>Total Objects: {stations.length}</p>)}
+                {refMode == 1 ? <p>ECF Mode</p> : <p>ECI Mode</p>}
             </div>
         )
     }
