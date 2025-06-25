@@ -4,7 +4,7 @@ import GitHubForkRibbon from 'react-github-fork-ribbon';
 
 const Fork = () => {
     return (
-        <GitHubForkRibbon href="https://github.com/dsuarezv/satellite-tracker"
+        <GitHubForkRibbon href="https://github.com/aayushmishramechatronics/satellite-tracker"
                 target="_blank"
                 position="right">
             Fork me on GitHub
